@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="DEBUG">
+    <Properties>
+         <!--definir le chemin d'acces au dossier de log pour window-->
+        <Property name="log-path">c:/logProxibanque</Property>
+        
+        <!--definir le chemin d'acces au dossier de log pour linux -->
+        <!--<Property name="log-path">/home/logProxibanque</Property>-->
+    </Properties>
+    <Appenders>
+        <RollingFile name="RollingFile" fileName="${log-path}/proxiB.log"
+                     filePattern="${log-path}/proxiB-%d{yyyy-MM-dd}-%i.log" >
+            <PatternLayout>
+                <pattern>%d{dd/MMM/yyyy HH:mm:ss,SSS}- %c{1}: %m%n</pattern>
+            </PatternLayout>
+            <!--<HTMLLayout charset="UTF-8" title="PROXI-BANQUE Info Logs" locationInfo="true" /> generer page html-->
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1 KB" />
+            </Policies>
+            <DefaultRolloverStrategy max="4"/>
+        </RollingFile>
+    </Appenders>
+    <Loggers>
+        <Logger name="root" level="debug" additivity="false">
+            <appender-ref ref="RollingFile" level="debug"/>
+        </Logger>
+        <Root level="debug" additivity="false">
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration>

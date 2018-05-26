@@ -1,0 +1,12 @@
+com/objis/proxibanque/filter/RetourAcceuilFilter.class
+com/objis/proxibanque/connexion/ConnexionDaoWeb.class
+com/objis/proxibanque/servlet/ListerClientsServlet.class
+com/objis/proxibanque/filter/EditerClientFilter.class
+com/objis/proxibanque/filter/VirementFilter.class
+com/objis/proxibanque/filter/AccueilFilter.class
+com/objis/proxibanque/servlet/VirementServlet.class
+com/objis/proxibanque/servlet/CreerClientServlet.class
+com/objis/proxibanque/filter/DeconnectionFilter.class
+com/objis/proxibanque/filter/CreerClientFilter.class
+com/objis/proxibanque/servlet/EditerClientsServlet.class
+com/objis/proxibanque/servlet/AcceuilServlet.class

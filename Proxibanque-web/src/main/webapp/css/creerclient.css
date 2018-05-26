@@ -1,0 +1,56 @@
+body{
+    background: #a27500;
+}
+
+.navbar-inverse {
+     background: #121D30;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color:#eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+.mypanel {
+    margin-top: 80px;
+}
+
+.form-button {
+    margin-top: 5%;
+}
+
+.label-input {
+    margin: 10px;
+}
+
+.myalert {
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+
+.my-info-panel {
+    margin-top: 30px;
+}
+
+.my-button {
+    margin-top: 10px;
+}

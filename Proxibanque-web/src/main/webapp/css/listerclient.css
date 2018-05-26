@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 juin 2016, 17:53:37
+    Author     : yeo sglo
+*/
+
+
+body {
+    background-color: #a27500;
+}
+
+.my-panel-listing{
+    margin-top: 100px;
+}
+
+.my-panel-body {
+    border: 2px;
+    border-color: blue;
+}
+
+
+
+thead {
+    margin-top: 10px;
+    background-color:#f2dede;
+    font-size: 17px;
+}
+
+.mytable {
+    border: 1px solid gray;
+}
+
+.col-sm-6 {
+}
+
+.my-input-ref {
+    text-align: left;   
+}
+
+.my-panel-perso {
+    box-shadow: -5px -5px 5px #121d30;
+}
+
+.espace-titre-rech {
+    height: 100px;
+}

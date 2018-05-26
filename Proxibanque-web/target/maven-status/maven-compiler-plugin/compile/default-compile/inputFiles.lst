@@ -1,0 +1,12 @@
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/filter/AccueilFilter.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/servlet/EditerClientsServlet.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/servlet/CreerClientServlet.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/servlet/AcceuilServlet.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/filter/RetourAcceuilFilter.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/filter/DeconnectionFilter.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/connexion/ConnexionDaoWeb.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/filter/EditerClientFilter.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/filter/CreerClientFilter.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/filter/VirementFilter.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/servlet/VirementServlet.java
+/home/yeo-sglo/ProjetNetBeans/Proxybanque/Proxibanque-web/src/main/java/com/objis/proxibanque/servlet/ListerClientsServlet.java

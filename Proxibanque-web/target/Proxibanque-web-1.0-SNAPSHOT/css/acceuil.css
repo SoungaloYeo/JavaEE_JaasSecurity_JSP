@@ -1,0 +1,43 @@
+body{
+    background: #a27500;
+}
+
+.jumbotron {
+    padding:10px 30px 10px 30px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    background: #1A237E;
+    color:floralwhite;
+}
+
+.navbar-inverse {
+     background: #121D30;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+ .navbar-inverse .navbar-nav > .open > a:hover,
+ .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: #1A237E;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+    background-color: #303F9F;
+    color:#eeeeee;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
+    color:#000000;
+}
+
+.table-data {
+    text-align: center;
+}

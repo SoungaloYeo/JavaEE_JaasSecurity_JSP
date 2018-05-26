@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/proxibanque-web">
+  <Resource auth="Container" 
+            driverClassName="com.mysql.jdbc.Driver"
+            name="jdbc/proxibanque_db"
+            password="" 
+            type="javax.sql.DataSource"
+            url="jdbc:mysql://localhost/proxibanque_db"
+            username="root"/>
+  <Realm className="org.apache.catalina.realm.DataSourceRealm" 
+         dataSourceName="jdbc/proxibanque_db"
+         localDataSource="true"
+         roleNameCol="role"
+         userCredCol="password"
+         userNameCol="login"
+         userRoleTable="roles"
+         userTable="gestionnaire"/>
+</Context>

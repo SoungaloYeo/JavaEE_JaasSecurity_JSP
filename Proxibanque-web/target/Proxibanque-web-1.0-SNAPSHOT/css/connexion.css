@@ -1,0 +1,42 @@
+body{
+    background-color: #a27500;
+}
+
+.fontConx{
+    background-color:#121d30;
+    color: white;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-top: 200px;
+    box-shadow: -8px -8px 3px black;
+}
+
+
+[class*="col-"]{
+
+}
+
+legend{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.btn-default{
+    margin-left: 40%;
+}
+.libele {
+    font-size: 13px;
+}
+
+.contenu {
+    font-size: 20px;
+    color: black;
+}
+
+.contenu2 {
+    font-size: 30px;
+    color: black;
+}
